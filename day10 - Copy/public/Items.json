@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/mb.jpg",
+    "name": "Mutton Biriyani",
+    "ingredients": ["Rice", "Mutton", "Biryani masala powder", "ginger","garlic paste","chopped mint leaves","red chilli powder"],
+    "preparationTime": 30,
+    "vegetarian": false
+  },
+  {
+    "id": 2,
+    "imageUrl": "/vb.jpg",
+    "name": "Veg Biriyani",
+    "ingredients": ["Rice", "Vegitables", "Biryani masala powder", "ginger","garlic paste","chopped mint leaves","red chilli powder"],
+    "preparationTime": 30,
+    "vegetarian": true
+  },
+  {
+    "id": 3,
+    "imageUrl": "/pasta.jpg",
+    "name": "Pasta Carbonara",
+    "ingredients": ["Pasta", "Eggs", "Parmesan", "Bacon"],
+    "preparationTime": 20,
+    "vegetarian": false
+  },
+  {
+    "id": 4,
+    "imageUrl": "/salad1.jpg",
+    "name": "Caesar Salad",
+    "ingredients": ["Lettuce", "Croutons", "Parmesan", "Caesar Dressing"],
+    "preparationTime": 10,
+    "vegetarian": true
+  },
+  {
+    "id": 5,
+    "imageUrl": "/burger.jpg",
+    "name": "Veggie Burger",
+    "ingredients": ["Bun", "Lettuce", "Tomato", "Veg Patty"],
+    "preparationTime": 15,
+    "vegetarian": true
+  },
+  {
+    "id": 6,
+    "imageUrl": "/sambar.jpg",
+    "name": "Sambar Rice",
+    "ingredients": ["vegitables", "sambar masala", "Tomato"],
+    "preparationTime": 30,
+    "vegetarian": true
+  },
+  {
+    "id": 7,
+    "imageUrl": "/dosa.jpg",
+    "name": "Dosa",
+    "ingredients": ["rice flour", "oil", "onion"],
+    "preparationTime": 10,
+    "vegetarian": true
+  },
+  {
+    "id": 8,
+    "imageUrl": "/lm.jpg",
+    "name": "Lemon Rice",
+    "ingredients": ["Rice", "Lemon", "oil", "Turmeric Powder"],
+    "preparationTime": 15,
+    "vegetarian": true
+  }
+]

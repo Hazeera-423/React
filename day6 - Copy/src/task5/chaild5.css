@@ -1,0 +1,39 @@
+
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    padding: 20px;
+}
+
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+
+.one {
+    border: 3px solid yellow;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+.two {
+    border: 5px solid greenyellow;
+    background-color:black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+}

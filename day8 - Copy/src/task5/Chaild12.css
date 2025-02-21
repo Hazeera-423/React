@@ -1,0 +1,20 @@
+.aa{
+    /* border: 3px solid gray; */
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+   
+      background-color: coral;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border: 3px solid gray;
+    border-radius: 50px;
+}
+.bb{
+border: 5px solid black;
+border-radius: 8px;
+background-color: coral;
+}

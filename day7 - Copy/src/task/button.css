@@ -1,0 +1,11 @@
+.bb{
+    border: 3px solid black;
+    background-color: darkmagenta;
+    padding: 50px;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+}
+.cc{
+   color: red;
+}

@@ -1,0 +1,12 @@
+.li{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 20px;
+    background-color: cyan;
+    color: black;
+    list-style: none;
+}
+li:hover{
+    background-color: bisque;
+}

@@ -1,0 +1,20 @@
+#one{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    background-color:gray;
+     color: '#fff';
+    padding: 20px;
+   
+    
+    
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+}

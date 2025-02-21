@@ -1,0 +1,8 @@
+[
+    { "id": 1, "imageUrl": "/laptop.jpg", "name": "Laptop", "category": "Electronics", "Price": 40000, "rating": 4.5 },
+    { "id": 2, "imageUrl": "/mobile.jpg", "name": "Mobile", "category": "Electronics", "Price": 20000, "rating": 4.7 },
+    { "id": 3, "imageUrl": "/coat.jpg", "name": "Coat", "category": "Fashion", "Price": 3000, "rating": 4.2 },
+    { "id": 4, "imageUrl": "/watch.jpg", "name": "Watch", "category": "Fashion", "Price": 1500, "rating": 4.0 },
+    { "id": 5, "imageUrl": "/blender.jpg", "name": "Blender", "category": "Home Appliances", "Price": 5000, "rating": 4.3 }
+  ]
+  

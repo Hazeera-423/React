@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "/rrr.jpg",
+      "title": "RRR",
+      "genre": "Sci-Fi",
+      "releaseYear": 2023,
+      "rating": 9.8
+    },
+    {
+      "id": 2,
+      "imageUrl": "/avatar.jpg",
+      "title": "Avatar",
+      "genre": "Action",
+      "releaseYear": 2009,
+      "rating": 7.8
+    },
+    {
+      "id": 3,
+      "imageUrl": "/Bahubali.jpg",
+      "title": "Bahubali",
+      "genre": "Drama",
+      "releaseYear": 2019,
+      "rating": 8.5
+    },
+    {
+        "id": 4,
+        "imageUrl": "/pushpa.jpg",
+        "title": "Pushpa",
+        "genre": "Action",
+        "releaseYear": 2022,
+        "rating": 8.5
+      }
+  ]
+  

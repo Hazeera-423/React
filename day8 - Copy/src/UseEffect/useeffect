@@ -1,0 +1,49 @@
+The useEffect hook in React is one of the most commonly used hooks and allows you to perform side effects in functional components. Side effects can include data fetching, updating the DOM, setting up subscriptions, or performing cleanup tasks.
+
+Syntax:
+useEffect(() => {
+  // Effect logic here
+  return () => {
+    // Optional cleanup logic here
+  };
+}, [dependencies]);
+Key Features:
+Effect Logic:
+
+The first argument to useEffect is a function that contains the effect logic, which runs after the component renders.
+Optional Cleanup:
+
+If your effect sets up something like subscriptions or timers, it can return a cleanup function that React will execute when the component unmounts or before re-running the effect.
+Dependencies:
+
+The second argument to useEffect is an array of dependencies. The effect only re-runs when one or more of these dependencies change.
+If omitted, the effect runs after every render.
+If you pass an empty array ([]), the effect only runs once when the component is mounted (similar to componentDidMount in class components).
+
+
+
+diffrence between useStae and useEffect:
+
+
+ChatGPT said:
+ChatGPT
+useState and useEffect are two fundamental React hooks, each serving a distinct purpose in managing state and side effects within functional components. Here's a breakdown of their differences:
+
+1. Purpose
+useState:
+
+Used to create and manage state (data) within a functional component.
+Allows components to store and update information between renders.
+useEffect:
+
+Used to perform side effects in functional components.
+Side effects include data fetching, subscriptions, DOM manipulations, etc.
+2. When It Runs
+useState:
+
+Executes immediately when called to initialize a state variable.
+The updated state triggers a re-render of the component.
+useEffect:
+
+Executes after the component renders (and optionally after dependencies change).
+Runs by default after every render unless controlled with dependencies.
